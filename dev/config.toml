@@ -1,7 +1,7 @@
 baseURL = 'https://i16777215.github.io'
 languageCode = 'ja-jp'
 title = 'Dev-Note'
-publishDir = "docs"
+publishDir = "../docs"
 
 # config.toml
 theme = "mainroad"
