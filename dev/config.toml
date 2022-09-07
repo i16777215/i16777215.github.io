@@ -17,13 +17,14 @@ theme = "mainroad"
 
 # profile
 [Author]
-  name = "s.hiro"
+  name = "SK-hiro"
   bio = "Fortran user"
 #  avatar = "img/avatar.png"
 
 [Params]
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
-  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  subtitle = "Personal dev-blog" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "SK-hiro's Personal blog about devlopment" # Site description. Used in meta description
+  copyright = "SK-hiro" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -40,11 +41,6 @@ theme = "mainroad"
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
-
-  # DEPRECATED PARAMS
-  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
-
 
 [Params.style.vars]
   highlightColor = "#3396FF"
