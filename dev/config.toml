@@ -2,6 +2,7 @@ baseURL = 'https://i16777215.github.io'
 languageCode = 'ja-jp'
 title = 'Dev-Note'
 publishDir = "../docs"
+googleAnalytics = "G-04E9YCJTWX" # この行を追記
 
 # config.toml
 theme = "mainroad"
